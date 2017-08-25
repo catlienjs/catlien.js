@@ -1,0 +1,14 @@
+{
+  "name": "catlien.js",
+  "version": "0.0.1",
+  "description": "Different way to write html with js.",
+  "main": "index.js",
+  "repository": "https://github.com/catlienjs/catlien.js.git",
+  "author": "catlienz <catlienz@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.2.2",
+    "typescript": "^2.4.2"
+  }
+}
