@@ -4,4 +4,4 @@ main.isObject = () => {
 
 }
 
-//TODO: TypeCheck, use TypeScript
+//TODO: Type check, use TypeScript in the furture.
