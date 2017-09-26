@@ -1,7 +1,11 @@
 import Cat from "../src/index.js";
 
+//
 var cat = new Cat();
 cat.use("./style.css");
+cat.use("./ex1.js");    //同步加载
+cat.useAsync("./ex2.js");   //异步加载
+cat.useDef("./ex3.js");   //异步加载，使用Def模式
 
 var s = cat.com.div();
 s.style = {
